@@ -1,0 +1,89 @@
+//===========
+// MAX WIDTHS
+//===========
+
+@mixin maxWidth1400 {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+@mixin maxWidth1300 {
+  @media (max-width: 1300px) {
+    @content;
+  }
+}
+@mixin maxWidth1200 {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin maxWidth1100 {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
+@mixin maxWidth1000 {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+@mixin maxWidth900 {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+@mixin maxWidth800 {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+@mixin maxWidth700 {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+@mixin maxWidth650 {
+  @media (max-width: 650px) {
+    @content;
+  }
+}
+@mixin maxWidth600 {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+@mixin maxWidth550 {
+  @media (max-width: 550px) {
+    @content;
+  }
+}
+@mixin maxWidth500 {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+@mixin maxWidth450 {
+  @media (max-width: 450px) {
+    @content;
+  }
+}
+@mixin maxWidth400 {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+@mixin maxWidth350 {
+  @media (max-width: 350px) {
+    @content;
+  }
+}
+
+//===========
+// MIN WIDTHS
+//===========
+
+@mixin minWidth1300 {
+  @media (min-width: 1300px) {
+    @content;
+  }
+}
